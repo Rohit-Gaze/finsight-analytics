@@ -34,5 +34,4 @@ Open `deliverables/FinSight_Interactive_Dashboard.html` in Chrome or Edge for th
 ## Responsible interpretation
 This is a historical observational dataset. Segment differences are associations, not proof of causation. The analysis does not train a predictive model, establish credit losses, or make lending decisions. Review missingness, sample sizes, fairness, privacy, and applicable regulations before operational use. Demographic breakdowns are audit/context only, not standalone adverse lending criteria. Financial values are dataset currency units and are not assumed INR.
 
-## AI-use disclosure
-AI tools assisted with scaffolding and documentation. Outputs were generated programmatically from the dataset. The project owner should personally review the analysis, reproduce key calculations, and be able to explain the work before presenting it in interviews.
+
