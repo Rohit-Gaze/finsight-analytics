@@ -5,3 +5,5 @@ data/*.csv
 *.log
 .DS_Store
 Thumbs.db
+
+reports/finsight_application_features.csv
