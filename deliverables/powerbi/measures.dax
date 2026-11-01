@@ -1,0 +1,7 @@
+Applications = COUNTROWS('application_train')
+Payment Difficulty Cases = SUM('application_train'[TARGET])
+Other Cases = [Applications] - [Payment Difficulty Cases]
+Payment Difficulty Rate = DIVIDE([Payment Difficulty Cases], [Applications], 0)
+Median Income = MEDIAN('application_train'[AMT_INCOME_TOTAL])
+Median Credit = MEDIAN('application_train'[AMT_CREDIT])
+Median Annuity = MEDIAN('application_train'[AMT_ANNUITY])

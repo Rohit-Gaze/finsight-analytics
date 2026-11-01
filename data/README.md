@@ -1,0 +1,1 @@
+Place the original Kaggle `application_train.csv` here. Raw dataset is excluded from Git and the shareable project ZIP.

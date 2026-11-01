@@ -1,0 +1,1 @@
+# SQL Validation Report\n\nExecuted 30 queries against the local dataset. Passed: 30; failed: 0.\n\nAll queries passed.\n\nSQLite validation uses a custom MEDIAN aggregate. Adapt MEDIAN and any dialect-specific syntax for your target warehouse.\n

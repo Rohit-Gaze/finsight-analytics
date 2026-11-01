@@ -1,0 +1,17 @@
+NAME_INCOME_TYPE,NAME_EDUCATION_TYPE,COUNT(*),AVG(TARGET)
+Commercial associate,Higher education,24025,0.05173777315296566
+Commercial associate,Incomplete higher,3400,0.08205882352941177
+Commercial associate,Lower secondary,460,0.12173913043478261
+Commercial associate,Secondary / secondary special,43689,0.08654352354139486
+Pensioner,Higher education,8188,0.04152418172936004
+Pensioner,Incomplete higher,518,0.0444015444015444
+Pensioner,Lower secondary,1529,0.06671026814911707
+Pensioner,Secondary / secondary special,45101,0.05580807520897541
+State servant,Higher education,8863,0.03881304298770168
+State servant,Incomplete higher,770,0.06753246753246753
+State servant,Lower secondary,102,0.0784313725490196
+State servant,Secondary / secondary special,11945,0.07074089577228966
+Working,Higher education,33762,0.061666962857650616
+Working,Incomplete higher,5585,0.09256938227394808
+Working,Lower secondary,1725,0.1455072463768116
+Working,Secondary / secondary special,117630,0.1051772507013517

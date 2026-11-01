@@ -1,0 +1,31 @@
+query_number,query,status,returned_rows
+1,Overall KPIs,PASS,1
+2,Contract type,PASS,2
+3,Income type,PASS,8
+4,Education,PASS,5
+5,Occupation,PASS,19
+6,Family status,PASS,6
+7,Housing type,PASS,6
+8,Gender fairness audit only,PASS,3
+9,Organization type,PASS,53
+10,Region rating,PASS,3
+11,Weekday,PASS,7
+12,Application hour,PASS,24
+13,Median financial values,PASS,1
+14,Missing values,PASS,1
+15,Credit to income,PASS,1
+16,Annuity to income,PASS,1
+17,Age bands,PASS,6
+18,Employment bands,PASS,3
+19,Income quintiles,PASS,5
+20,Credit by contract,PASS,2
+21,Annuity by contract,PASS,2
+22,Target counts by gender,PASS,3
+23,External score averages,PASS,1
+24,Negative value checks,PASS,1
+25,Duplicate IDs,PASS,0
+26,Contract and weekday,PASS,14
+27,Income type and education,PASS,16
+28,Region by contract,PASS,6
+29,Weekday and hour,PASS,168
+30,Segment size check,PASS,2

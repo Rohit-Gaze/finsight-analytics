@@ -1,0 +1,34 @@
+// FinSight Power BI DAX measures
+// Table name assumed: FinSight
+
+Applications = COUNTROWS(FinSight)
+
+Payment Difficulty Cases =
+CALCULATE(COUNTROWS(FinSight), FinSight[payment_difficulty] = 1)
+
+Other Applications =
+CALCULATE(COUNTROWS(FinSight), FinSight[payment_difficulty] = 0)
+
+Payment Difficulty Rate =
+DIVIDE([Payment Difficulty Cases], [Applications], 0)
+
+Average Annual Income =
+AVERAGE(FinSight[annual_income])
+
+Median Annual Income =
+MEDIAN(FinSight[annual_income])
+
+Average Credit Amount =
+AVERAGE(FinSight[credit_amount])
+
+Average Annuity =
+AVERAGE(FinSight[annuity_amount])
+
+Average Credit-to-Income =
+AVERAGE(FinSight[credit_to_income])
+
+Average Age =
+AVERAGE(FinSight[age_years])
+
+// Use Payment Difficulty Rate as the main risk measure.
+// Avoid interpreting descriptive group differences as causal.

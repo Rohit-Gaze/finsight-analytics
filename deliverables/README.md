@@ -1,0 +1,1 @@
+FinSight generated deliverables. Source: 307,511 rows, 122 columns. Contains KPI and segment reports, missingness profile, charts, 30 SQL queries, DAX measures, dashboard guide and interview notes. Descriptive analysis only; no causal or predictive claims.
